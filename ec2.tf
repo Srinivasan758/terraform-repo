@@ -3,5 +3,5 @@ provider "aws" {
 }
 resource "aws_instance" "myec2" {
   ami           = "ami-00c39f71452c08778"
-  default = "t2.micro"
+  default       = "t2.micro"
 }
